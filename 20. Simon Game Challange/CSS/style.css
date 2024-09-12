@@ -1,0 +1,54 @@
+body {
+    background: linear-gradient(45deg, #E9FF97, #FFD18E, #FFA38F);
+    min-height: 100vh;
+}
+
+.game-over {
+    background: linear-gradient(45deg, #FFB6B6, #FF9B9B, #FF6F6F);
+    min-height: 100vh;
+}
+
+.flex-container {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+}
+
+.flex-cell {
+    width: 120px;
+    height: 120px;
+    background-color: red;
+    border: solid 5px #000;
+    border-radius: 25%;
+}
+
+.flex-cell-1 {
+    background-color: #697565;
+}
+
+.flex-cell-2 {
+    background-color: blue;
+}
+
+.flex-cell-3 {
+    background-color: yellow;
+}
+
+.flex-cell-4 {
+    background-color: white;
+}
+
+.flex-cell-5 {
+    background-color: #4379F2;
+}
+
+.flex-cell-6 {
+    background-color: aqua;
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
