@@ -1,0 +1,16 @@
+{
+  "name": "24-express",
+  "version": "1.0.0",
+  "description": "Learning Express",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Ismail Akram",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
