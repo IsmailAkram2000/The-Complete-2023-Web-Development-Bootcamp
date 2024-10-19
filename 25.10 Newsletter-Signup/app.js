@@ -34,6 +34,3 @@ const PORT = 3000;
 app.listen(PORT, function () {
     console.log(`Server is running on port ${PORT}`);
 });
-
-
-// 25b0ccab013744cba8fd59f8beb81327-us8
