@@ -1,3 +1,6 @@
+// Environment Variables
+require('dotenv').config();
+
 const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
@@ -10,7 +13,7 @@ app.use(bodyParser.urlencoded({ extended: true })); // Parse URL-encoded bodies
 app.use(express.static("public")); // Serve static files from 'public' folder
 
 // Connect to MongoDB
-mongoose.connect("mongodb+srv://Ismail_Akram:Angel0068@cluster0.f3qjk.mongodb.net/wikiDB");
+mongoose.connect(process.env.DATABASE_KEY);
 
 // Set EJS as the templating engine
 app.set("view engine", "ejs");
